@@ -1,0 +1,57 @@
+Index: notebooks/download.ipynb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/notebooks/download.ipynb b/notebooks/download.ipynb
+--- a/notebooks/download.ipynb	
++++ b/notebooks/download.ipynb	
+@@ -738,7 +738,47 @@
+       "Processed tiles: 64, blank tiles: 0, misshapen tiles: 29, no_mask: 132\n",
+       "Processed tiles: 64, blank tiles: 0, misshapen tiles: 29, no_mask: 132\n",
+       "Processed tiles: 64, blank tiles: 0, misshapen tiles: 29, no_mask: 132\n",
+-      "Processed tiles: 64, blank tiles: 0, misshapen tiles: 29, no_mask: 132\n"
++      "Processed tiles: 64, blank tiles: 0, misshapen tiles: 29, no_mask: 132\n",
++      "Processed tiles: 64, blank tiles: 0, misshapen tiles: 29, no_mask: 132\n",
++      "Processed tiles: 64, blank tiles: 0, misshapen tiles: 29, no_mask: 132\n",
++      "Processed tiles: 64, blank tiles: 0, misshapen tiles: 29, no_mask: 132\n",
++      "Processed tiles: 196, blank tiles: 0, misshapen tiles: 29, no_mask: 0\n",
++      "Processed tiles: 64, blank tiles: 0, misshapen tiles: 29, no_mask: 132\n",
++      "Skipping https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/U/GD/2023/8/S2B_10UGD_20230828_0_L2A/B04.tif as it already exists.\n",
++      "Skipping https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/U/GD/2023/8/S2B_10UGD_20230828_0_L2A/B03.tif as it already exists.\n",
++      "Skipping https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/U/GD/2023/8/S2B_10UGD_20230828_0_L2A/B02.tif as it already exists.\n",
++      "Skipping https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/U/GD/2023/8/S2B_10UGD_20230828_0_L2A/B08.tif as it already exists.\n",
++      "Skipping https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/U/GD/2023/8/S2B_10UGD_20230828_0_L2A/B05.tif as it already exists.\n",
++      "Skipping https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/U/GD/2023/8/S2B_10UGD_20230828_0_L2A/B06.tif as it already exists.\n",
++      "Skipping https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/U/GD/2023/8/S2B_10UGD_20230828_0_L2A/B07.tif as it already exists.\n",
++      "Skipping https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/U/GD/2023/8/S2B_10UGD_20230828_0_L2A/B8A.tif as it already exists.\n",
++      "Skipping https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/U/GD/2023/8/S2B_10UGD_20230828_0_L2A/B11.tif as it already exists.\n",
++      "Skipping https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/U/GD/2023/8/S2B_10UGD_20230828_0_L2A/B12.tif as it already exists.\n",
++      "Skipping https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/U/GD/2023/8/S2B_10UGD_20230828_0_L2A/B01.tif as it already exists.\n",
++      "Skipping https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/U/GD/2023/8/S2B_10UGD_20230828_0_L2A/B09.tif as it already exists.\n",
++      "Skipping https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/U/GD/2023/8/S2B_10UGD_20230828_0_L2A/SCL.tif as it already exists.\n",
++      "Skipping https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/U/GD/2023/8/S2B_10UGD_20230828_0_L2A/AOT.tif as it already exists.\n",
++      "Skipping https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/U/GD/2023/8/S2B_10UGD_20230828_0_L2A/tileinfo_metadata.json as it already exists.\n",
++      "Processed tiles: 196, blank tiles: 0, misshapen tiles: 29, no_mask: 0\n",
++      "Processed tiles: 196, blank tiles: 0, misshapen tiles: 29, no_mask: 0\n",
++      "Processed tiles: 75, blank tiles: 0, misshapen tiles: 29, no_mask: 121\n",
++      "Processed tiles: 75, blank tiles: 0, misshapen tiles: 29, no_mask: 121\n",
++      "Processed tiles: 75, blank tiles: 0, misshapen tiles: 29, no_mask: 121\n",
++      "Processed tiles: 196, blank tiles: 0, misshapen tiles: 29, no_mask: 0\n",
++      "Processed tiles: 75, blank tiles: 0, misshapen tiles: 29, no_mask: 121\n",
++      "Processed tiles: 196, blank tiles: 0, misshapen tiles: 29, no_mask: 0\n",
++      "Processed tiles: 75, blank tiles: 0, misshapen tiles: 29, no_mask: 121\n",
++      "Processed tiles: 196, blank tiles: 0, misshapen tiles: 29, no_mask: 0\n",
++      "Processed tiles: 75, blank tiles: 0, misshapen tiles: 29, no_mask: 121\n",
++      "Processed tiles: 75, blank tiles: 0, misshapen tiles: 29, no_mask: 121\n",
++      "Processed tiles: 196, blank tiles: 0, misshapen tiles: 29, no_mask: 0\n",
++      "Processed tiles: 29, blank tiles: 0, misshapen tiles: 29, no_mask: 167\n",
++      "Processed tiles: 75, blank tiles: 0, misshapen tiles: 29, no_mask: 121\n",
++      "Processed tiles: 196, blank tiles: 0, misshapen tiles: 29, no_mask: 0\n",
++      "Processed tiles: 29, blank tiles: 0, misshapen tiles: 29, no_mask: 167\n",
++      "Processed tiles: 75, blank tiles: 0, misshapen tiles: 29, no_mask: 121\n",
++      "Processed tiles: 196, blank tiles: 0, misshapen tiles: 29, no_mask: 0\n",
++      "Processed tiles: 29, blank tiles: 0, misshapen tiles: 29, no_mask: 167\n"
+      ]
+     }
+    ],
