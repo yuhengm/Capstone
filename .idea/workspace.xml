@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ba1bc5ea-f182-41a4-9910-23b002b63493" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine_seg_sat/models/data_file.csv" beforeDir="false" afterPath="$PROJECT_DIR$/mine_seg_sat/models/data_file.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine_seg_sat/models/random_forest.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/mine_seg_sat/models/random_forest.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine_seg_sat/image_process.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/mine_seg_sat/image_process.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine_seg_sat/models/knn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/mine_seg_sat/models/knn.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +25,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2XVctgdpRRSftEhoJkiR0K9W2zr" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -36,19 +36,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "xm-knn",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;xm-knn&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +58,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698717905248</updated>
-      <workItem from="1698717907256" duration="243000" />
+      <workItem from="1698717907256" duration="3291000" />
+      <workItem from="1698769241830" duration="4242000" />
+      <workItem from="1698787558884" duration="3932000" />
     </task>
     <servers />
   </component>
