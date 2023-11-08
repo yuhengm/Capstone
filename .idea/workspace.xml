@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba1bc5ea-f182-41a4-9910-23b002b63493" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mine_seg_sat/save_processed_image.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/download.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/download.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepare_dataset/dataset_splits.csv" beforeDir="false" afterPath="$PROJECT_DIR$/prepare_dataset/dataset_splits.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine_seg_sat/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/mine_seg_sat/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine_seg_sat/image_process.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/mine_seg_sat/image_process.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine_seg_sat/save_processed_image.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/mine_seg_sat/save_processed_image.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +26,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2XuAhWt78emxqFB1t0JOoM8Kjv9" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,19 +37,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mine_seg_sat" />
@@ -93,6 +94,12 @@
       <option name="presentableId" value="Default" />
       <updated>1699468711393</updated>
       <workItem from="1699468712739" duration="240000" />
+      <workItem from="1699468956845" duration="52000" />
+      <workItem from="1699469011496" duration="127000" />
+      <workItem from="1699469142097" duration="31000" />
+      <workItem from="1699469175944" duration="13000" />
+      <workItem from="1699469232802" duration="974000" />
+      <workItem from="1699470245382" duration="185000" />
     </task>
     <servers />
   </component>
