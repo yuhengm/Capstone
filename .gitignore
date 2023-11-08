@@ -164,3 +164,6 @@ shrapnl/
 
 # project related
 download_file/*
+prepare_dataset/*
+processed_images/*
+data_csv/data.csv
