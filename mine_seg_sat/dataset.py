@@ -475,14 +475,6 @@ class MineSATDataset(torch.utils.data.Dataset):
             }
         )
 
-    #
-    # def safe_divide(self, numerator, denominator):
-    #     """Safely divide two arrays and handle division by zero."""
-    #     with np.errstate(divide='ignore', invalid='ignore'):
-    #         result = numerator / denominator
-    #         result[~np.isfinite(result)] = 0  # Replace -inf, inf, NaN with 0
-    #     return result
-    #
     # def get_transformed_images(self, index: int, percentile: int = 95):
     #     """
     #     Generate Sentinel-2 images from the given filepath. The returned images are as follows:
@@ -542,6 +534,13 @@ class MineSATDataset(torch.utils.data.Dataset):
     #
     #     return image_dict
 
+    def safe_divide(self, numerator, denominator):
+        """Safely divide two arrays and handle division by zero."""
+        with np.errstate(divide='ignore', invalid='ignore'):
+            result = numerator / denominator
+            result[~np.isfinite(result)] = 0  # Replace -inf, inf, NaN with 0
+        return result
+
     def get_images(self, index: int, percentile: int = 95):
         """
         Generate Sentinel-2 images from the given filepath. The returned images are as follows:
@@ -600,13 +599,7 @@ class MineSATDataset(torch.utils.data.Dataset):
             mask = self.colorize_mask(mask)
 
             # Calculate NDVI (Normalized Difference Vegetation Index)
-            NDVI = (B08 - B04) / (B08 + B04)
-
-            # Calculate NDBI (Normalized Difference Built-Up Index)
-            NDBI = (B11 - B08) / (B11 + B08)
-
-            # Calculate NDWI (Normalized Difference Water Index)
-            NDWI = (B08 - B12) / (B08 + B12)
+            NDVI = self.safe_divide(B08 - B04 , B08 + B04)
 
             # Create a color image using RGB bands
             RGB = np.stack([B04, B03, B02], axis=-1)
@@ -616,7 +609,7 @@ class MineSATDataset(torch.utils.data.Dataset):
                 B07, (B04.shape[1], B04.shape[0]), interpolation=cv2.INTER_CUBIC)
 
             # Now compute NBR
-            NBR = (B08 - B07_rescaled) / (B08 + B07_rescaled)
+            NBR = self.safe_divide(B08 - B07_rescaled, B08 + B07_rescaled)
             # Create a false-color composite image
             false_color = np.stack([B08, B04, B03], axis=-1)
 
