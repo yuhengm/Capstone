@@ -1,5 +1,6 @@
 import csv
 import os
+from pathlib import Path
 import shutil
 
 
@@ -167,5 +168,5 @@ def main():
 if __name__ == "__main__":
     main()
     prepare_dataset_path = os.path.join(
-        os.path.dirname(__file__), "../prepare_dataset/")
+        os.path.dirname(__file__), Path(os.environ.get('prepare_dataset_folder')))
     update_dataset_splits_csv(prepare_dataset_path)
